@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Om Oh My Dog – hundefrisør Lina i København</title>
+<meta name="description" content="Mød Lina, certificeret hundetræner og erfaren hundefrisør hos Oh My Dog i København. Rolig, tryg og respektfuld pleje af din hund eller kat.">
+<meta name="theme-color" content="#F2E8D5">
+<link rel="canonical" href="https://ohmydogcph.dk/om-os/">
+<link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/om-os/">
+<link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/about/">
+<link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/om-os/">
+<link rel="icon" href="../favicon.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Oh My Dog">
+<meta property="og:title" content="Om Oh My Dog – hundefrisør Lina i København">
+<meta property="og:description" content="Mød Lina, certificeret hundetræner og erfaren hundefrisør hos Oh My Dog i København. Rolig, tryg og respektfuld pleje af din hund eller kat.">
+<meta property="og:url" content="https://ohmydogcph.dk/om-os/">
+<meta property="og:image" content="https://ohmydogcph.dk/images/og-image.jpg">
+<meta property="og:locale" content="da_DK">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F2E8D5;
+    --bg-alt:#EADFC7;
+    --ink:#2B2430;
+    --ink-soft:#5B5460;
+    --blue:#5B7C8D;
+    --blue-deep:#3F5C6B;
+    --gold:#D9A441;
+    --sage:#C9D6C5;
+    --sage-deep:#8FA98B;
+    --rust:#A85D3B;
+    --line:#D6C9AB;
+    --paper:#FCF8EE;
+    --focus:#3F5C6B;
+    --radius:2px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-size:1rem;
+    line-height:1.6;
+  }
+
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    line-height:1.15;
+    margin:0 0 .5em;
+    color:var(--ink);
+  }
+  h1{font-size:clamp(2.4rem, 6vw, 4.4rem); font-weight:500;}
+  h2{font-size:clamp(1.8rem, 4vw, 2.6rem);}
+  h3{font-size:1.3rem;}
+
+  p{margin:0 0 1em;}
+  a{color:var(--blue-deep);}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+
+  img{max-width:100%; height:auto; display:block;}
+
+  /* Language toggling */
+  body.lang-da .en{display:none;}
+  body.lang-en .da{display:none;}
+
+  /* Skip link */
+  .skip-link{
+    position:absolute; left:-999px; top:0;
+    background:var(--ink); color:#fff; padding:.75em 1.2em;
+    z-index:1000; border-radius:0 0 var(--radius) 0;
+  }
+  .skip-link:focus{left:0;}
+
+  :focus-visible{
+    outline:3px solid var(--focus);
+    outline-offset:3px;
+  }
+
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+
+  /* HEADER */
+  header.site-header{
+    position:sticky; top:0; z-index:100;
+    background:rgba(242,232,213,.94);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .header-inner{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:10px 24px; max-width:1120px; margin:0 auto; gap:20px;
+  }
+  .logo{
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.4rem;
+    color:var(--ink); text-decoration:none; letter-spacing:.02em;
+    display:flex; align-items:center; gap:8px;
+  }
+  .logo .paw{color:var(--rust); font-size:1.1rem;}
+  nav.primary-nav{display:flex; align-items:center; gap:22px;}
+  nav.primary-nav a{
+    color:var(--ink); text-decoration:none; font-size:.95rem; font-weight:500;
+    border-bottom:2px solid transparent; padding-bottom:2px;
+  }
+  nav.primary-nav a:hover{border-bottom-color:var(--rust);}
+  .nav-toggle{display:none;}
+  .header-actions{display:flex; align-items:center; gap:14px;}
+
+  .lang-switch{
+    display:flex; border:1px solid var(--ink); border-radius:999px; overflow:hidden;
+    font-family:'IBM Plex Mono', monospace; font-size:.78rem;
+  }
+  .lang-switch button{
+    background:transparent; border:none; padding:6px 12px; cursor:pointer;
+    color:var(--ink); font-family:inherit; font-size:inherit;
+  }
+  .lang-switch button[aria-pressed="true"]{background:var(--ink); color:var(--bg);}
+
+  .btn{
+    display:inline-block; padding:11px 22px; border-radius:999px;
+    text-decoration:none; font-weight:600; font-size:.92rem;
+    border:1.5px solid var(--ink); transition:transform .15s ease, background .15s ease;
+  }
+  .btn-primary{background:var(--rust); border-color:var(--rust); color:#fff;}
+  .btn-primary:hover{background:#8f4d30;}
+  .btn-outline{background:transparent; color:var(--ink);}
+  .btn-outline:hover{background:var(--ink); color:var(--bg);}
+
+  /* HERO */
+  .hero{
+    padding:88px 0 72px; position:relative; overflow:hidden;
+  }
+  .hero .wrap{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center;}
+  .hero-eyebrow{
+    font-family:'IBM Plex Mono', monospace; text-transform:uppercase; letter-spacing:.14em;
+    font-size:.78rem; color:var(--blue-deep); margin-bottom:14px; display:block;
+  }
+  .hero p.lede{font-size:1.15rem; color:var(--ink-soft); max-width:46ch;}
+  .hero-cta{display:flex; gap:14px; margin-top:28px; flex-wrap:wrap;}
+  .hero-figure{
+    aspect-ratio:7/5; background:var(--sage);
+    border-radius:14px 90px 14px 14px;
+    display:flex; align-items:center; justify-content:center;
+    position:relative; overflow:hidden;
+  }
+  .hero-figure img{width:100%; height:100%; object-fit:cover;}
+  .hero-figure .tag{
+    position:absolute; bottom:16px; left:16px; background:var(--paper);
+    padding:8px 14px; border-radius:999px; font-family:'IBM Plex Mono',monospace;
+    font-size:.75rem; box-shadow:0 4px 14px rgba(43,36,48,.12);
+  }
+
+  /* brush-stroke divider */
+  .divider{width:100%; height:34px; display:block; color:var(--bg-alt);}
+  .divider path{fill:currentColor;}
+
+  section{padding:76px 0; scroll-margin-top:120px;}
+  section.alt{background:var(--bg-alt);}
+
+  .section-head{max-width:640px; margin-bottom:44px;}
+  .section-head .kicker{
+    font-family:'IBM Plex Mono', monospace; text-transform:uppercase; letter-spacing:.14em;
+    font-size:.75rem; color:var(--rust); display:block; margin-bottom:10px;
+  }
+
+  /* ABOUT */
+  .about-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:52px; align-items:center;}
+  .about-photo{
+    background:var(--paper); border:1px solid var(--line); border-radius:10px; overflow:hidden;
+  }
+  .about-photo img{width:100%; aspect-ratio:1/1; object-fit:cover;}
+  .credential{
+    display:inline-flex; align-items:center; gap:8px; margin:4px 10px 4px 0;
+    padding:6px 12px; background:var(--sage); border-radius:999px; font-size:.85rem; font-weight:500;
+  }
+
+  /* PARTNERS */
+  .partners{display:grid; grid-template-columns:repeat(2,1fr); gap:24px;}
+  .partner-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:26px;
+    display:flex; gap:18px; align-items:flex-start;
+  }
+  .partner-card img{width:56px; height:56px; object-fit:contain; border-radius:8px; background:var(--bg-alt); padding:8px;}
+
+  /* PRICES — signature "grooming ticket" cards */
+  .price-category{margin-bottom:52px;}
+  .price-category h3{
+    display:flex; align-items:center; gap:12px; margin-bottom:18px;
+  }
+  .price-category h3::after{
+    content:""; flex:1; height:1px; background:var(--line);
+  }
+  .ticket-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px;}
+  .ticket{
+    position:relative; background:var(--paper); border:1px dashed var(--ink-soft);
+    border-radius:10px; padding:18px 18px 16px;
+  }
+  .ticket::before, .ticket::after{
+    content:""; position:absolute; top:50%; width:16px; height:16px;
+    background:var(--bg); border-radius:50%; transform:translateY(-50%);
+  }
+  .ticket::before{left:-9px;}
+  .ticket::after{right:-9px;}
+  section.alt .ticket::before, section.alt .ticket::after{background:var(--bg-alt);}
+  .ticket-top{display:flex; justify-content:space-between; align-items:baseline; gap:10px; margin-bottom:6px;}
+  .ticket-name{font-weight:600; font-size:1rem;}
+  .ticket-price{font-family:'IBM Plex Mono', monospace; font-weight:500; color:var(--rust); white-space:nowrap;}
+  .ticket-meta{font-family:'IBM Plex Mono', monospace; font-size:.78rem; color:var(--ink-soft); margin-bottom:8px;}
+  .ticket-desc{font-size:.86rem; color:var(--ink-soft); margin:0;}
+  .price-note{
+    margin-top:18px; padding:14px 18px; background:var(--sage); border-radius:10px; font-size:.92rem;
+  }
+
+  /* GALLERY */
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(4, 1fr); grid-auto-rows:170px; gap:12px;
+  }
+  .gallery-grid figure{
+    margin:0; background:var(--sage); border-radius:8px; overflow:hidden; position:relative;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .gallery-grid figure:nth-child(3n+1){grid-row:span 2;}
+  .gallery-grid img{width:100%; height:100%; object-fit:cover;}
+  .gallery-placeholder{
+    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
+    color:var(--blue-deep); font-family:'IBM Plex Mono',monospace; font-size:.75rem; text-align:center; padding:8px;
+  }
+  .gallery-placeholder svg{width:28px; height:28px;}
+
+  /* FAQ */
+  details.faq-item{
+    border-bottom:1px solid var(--line); padding:18px 0;
+  }
+  details.faq-item summary{
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.08rem; cursor:pointer;
+    list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;
+  }
+  details.faq-item summary::-webkit-details-marker{display:none;}
+  details.faq-item summary::after{
+    content:"+"; font-family:'IBM Plex Mono',monospace; font-size:1.4rem; color:var(--rust); flex-shrink:0;
+  }
+  details.faq-item[open] summary::after{content:"–";}
+  details.faq-item .faq-answer{margin-top:12px; color:var(--ink-soft); max-width:70ch;}
+
+  /* TERMS */
+  .terms-block{margin-bottom:30px;}
+  .terms-block h3{margin-bottom:10px;}
+  .terms-block ul{padding-left:1.2em; color:var(--ink-soft);}
+  .terms-block li{margin-bottom:6px;}
+  .terms-note{
+    background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px 20px;
+    font-size:.88rem; color:var(--ink-soft); margin-top:34px;
+  }
+
+  /* CONTACT / FOOTER */
+  footer{background:var(--ink); color:var(--bg); padding:64px 0 32px;}
+  footer a{color:var(--sage);}
+  .footer-grid{display:grid; grid-template-columns:1.2fr 1fr 1fr; gap:40px; margin-bottom:48px;}
+  footer h3{color:var(--bg); font-size:1.4rem;}
+  footer .foot-label{
+    font-family:'IBM Plex Mono',monospace; text-transform:uppercase; letter-spacing:.1em;
+    font-size:.72rem; color:var(--sage-deep); display:block; margin-bottom:12px;
+  }
+  .hours-row{display:flex; justify-content:space-between; font-size:.9rem; padding:4px 0; border-bottom:1px solid rgba(255,255,255,.08); max-width:280px;}
+  footer .bottom{
+    border-top:1px solid rgba(255,255,255,.15); padding-top:22px; font-size:.82rem; color:var(--sage-deep);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+
+  @media (max-width: 880px){
+    .hero .wrap{grid-template-columns:1fr;}
+    .hero-figure{order:-1; aspect-ratio:16/10;}
+    .about-grid{grid-template-columns:1fr;}
+    .partners{grid-template-columns:1fr;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .footer-grid{grid-template-columns:1fr;}
+    nav.primary-nav{
+      position:fixed; inset:0; z-index:1; background:var(--bg); flex-direction:column;
+      padding:120px 24px 32px; margin-right:0; gap:22px; visibility:hidden; opacity:0; transition:opacity .2s ease, visibility .2s;
+      align-items:flex-start; overflow-y:auto;
+    }
+    nav.primary-nav.open{visibility:visible; opacity:1;}
+    header.site-header{backdrop-filter:none; -webkit-backdrop-filter:none; background:var(--bg);}
+    nav.primary-nav a{font-size:1.2rem;}
+    .nav-toggle{
+      display:inline-flex; background:none; border:1.5px solid var(--ink); border-radius:8px;
+      padding:8px 10px; cursor:pointer;
+    }
+    .header-actions .btn-outline{display:none;}
+  }
+
+  /* ===== ACCESSIBILITY TOOLBAR ===== */
+  .a11y-fab{
+    position:fixed; left:16px; bottom:16px; z-index:500;
+    display:flex; align-items:center; gap:8px;
+    min-height:48px; padding:10px 18px; border-radius:999px;
+    background:var(--ink); color:var(--bg); border:2px solid var(--bg);
+    font-family:inherit; font-size:.95rem; font-weight:600; cursor:pointer;
+    box-shadow:0 6px 20px rgba(0,0,0,.25);
+  }
+  .a11y-panel{
+    position:fixed; left:16px; bottom:76px; z-index:500;
+    width:min(340px, calc(100vw - 32px)); max-height:calc(100vh - 100px); overflow:auto;
+    background:var(--paper); color:var(--ink); border:2px solid var(--ink); border-radius:14px;
+    padding:18px; box-shadow:0 12px 36px rgba(0,0,0,.3);
+  }
+  .a11y-panel[hidden]{display:none;}
+  .a11y-panel h2{font-size:1.2rem; margin:0 0 12px;}
+  .a11y-row{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px;}
+  .a11y-btn{
+    flex:1 1 auto; min-height:44px; padding:8px 12px; border-radius:10px; cursor:pointer;
+    background:var(--bg); color:var(--ink); border:2px solid var(--ink);
+    font-family:inherit; font-size:.92rem; font-weight:600; text-align:left;
+  }
+  .a11y-btn[aria-pressed="true"]{background:var(--ink); color:var(--bg);}
+  .a11y-label{display:block; font-weight:600; font-size:.85rem; margin:8px 0 6px;}
+  .a11y-reset{width:100%; text-align:center; margin-top:6px;}
+
+  /* Text size */
+  html.a11y-size-1{font-size:112.5%;}
+  html.a11y-size-2{font-size:131%;}
+  html.a11y-size-3{font-size:156%;}
+
+  /* Readable font */
+  html.a11y-font body, html.a11y-font body *{
+    font-family:'Atkinson Hyperlegible','Verdana',sans-serif !important;
+  }
+
+  /* Spacing */
+  html.a11y-spacing body{line-height:1.95; letter-spacing:.04em; word-spacing:.12em;}
+  html.a11y-spacing p, html.a11y-spacing li{margin-bottom:1.3em;}
+
+  /* Underline links */
+  html.a11y-links a{text-decoration:underline !important; text-underline-offset:3px; text-decoration-thickness:2px;}
+
+  /* Stop motion */
+  html.a11y-motion *, html.a11y-motion *::before, html.a11y-motion *::after{
+    animation:none !important; transition:none !important; scroll-behavior:auto !important;
+  }
+
+  /* High contrast (black / white / yellow) */
+  html.a11y-contrast{
+    --bg:#000; --bg-alt:#000; --ink:#fff; --ink-soft:#fff; --blue:#8fd8ff; --blue-deep:#8fd8ff;
+    --gold:#ffd400; --sage:#1a1a1a; --sage-deep:#fff; --rust:#ffd400; --line:#fff; --paper:#000; --focus:#ffd400;
+  }
+  html.a11y-contrast body{background:#000; color:#fff;}
+  html.a11y-contrast header.site-header{background:#000; backdrop-filter:none; border-bottom:2px solid #fff;}
+  html.a11y-contrast a{color:#8fd8ff;}
+  html.a11y-contrast .btn-primary{background:#ffd400; border-color:#ffd400; color:#000;}
+  html.a11y-contrast .btn-outline{color:#fff; border-color:#fff;}
+  html.a11y-contrast .btn-outline:hover{background:#fff; color:#000;}
+  html.a11y-contrast .logo, html.a11y-contrast nav.primary-nav a{color:#fff;}
+  html.a11y-contrast .lang-switch{border-color:#fff;}
+  html.a11y-contrast .lang-switch button{color:#fff;}
+  html.a11y-contrast .lang-switch button[aria-pressed="true"]{background:#fff; color:#000;}
+  html.a11y-contrast .nav-toggle{color:#fff; border-color:#fff;}
+  html.a11y-contrast .hero-figure{background:#1a1a1a;}
+  html.a11y-contrast .hero-figure .tag{background:#000; color:#fff; border:2px solid #fff;}
+  html.a11y-contrast .divider{color:#000;}
+  html.a11y-contrast .ticket, html.a11y-contrast .partner-card, html.a11y-contrast .about-photo, html.a11y-contrast .terms-note{
+    background:#000; border:2px solid #fff; color:#fff;
+  }
+  html.a11y-contrast .ticket{border-style:dashed;}
+  html.a11y-contrast .credential{background:#1a1a1a; border:1px solid #fff; color:#fff;}
+  html.a11y-contrast .price-note{background:#1a1a1a; border:2px solid #ffd400; color:#fff;}
+  html.a11y-contrast .partner-card img{background:#fff;}
+  html.a11y-contrast footer{background:#000; color:#fff; border-top:3px solid #fff;}
+  html.a11y-contrast footer a{color:#8fd8ff;}
+  html.a11y-contrast footer h3{color:#fff;}
+  html.a11y-contrast footer p{color:#fff !important;}
+  html.a11y-contrast .hours-row{border-bottom-color:#fff;}
+  html.a11y-contrast footer .bottom{border-top-color:#fff; color:#fff;}
+  html.a11y-contrast .a11y-fab{background:#ffd400; color:#000; border-color:#fff;}
+  html.a11y-contrast .a11y-btn[aria-pressed="true"]{background:#ffd400; color:#000; border-color:#ffd400;}
+  html.a11y-contrast .a11y-panel{border-color:#ffd400;}
+
+  .logo{position:relative; z-index:2;}
+  .header-actions{position:relative; z-index:2;}
+  .logo img.logo-header{height:84px; width:auto; display:block; transition:height .2s ease;}
+  header.site-header.scrolled .logo img.logo-header{height:56px;}
+  img.logo-footer{width:230px; max-width:100%; height:auto; border-radius:14px; display:block; margin-bottom:18px; background:#F2E8D5; padding:12px 16px;}
+  @media (max-width: 880px){ .logo img.logo-header{height:62px;} header.site-header.scrolled .logo img.logo-header{height:48px;} }
+  html.a11y-contrast .logo img.logo-header, html.a11y-contrast img.brand-end-logo{filter:grayscale(1) invert(1) contrast(1.4);}
+  html.a11y-contrast img.logo-footer{filter:none; background:#F2E8D5;}
+  .partner-card img.partner-logo{width:72px; height:72px; padding:0; border-radius:14px; object-fit:cover; background:none; flex-shrink:0;}
+  .about-extra{display:grid; grid-template-columns:1fr 1fr; gap:30px 34px; margin-top:56px; padding:0 14px;}
+  .about-extra figure{margin:0; background:#fff; padding:12px; border-radius:8px; border:1px solid var(--line);
+    box-shadow:0 14px 30px -14px rgba(43,36,48,.35), 0 2px 5px rgba(43,36,48,.08); transition:transform .25s ease;}
+  .about-extra figure:nth-child(1){transform:rotate(-1.6deg);}
+  .about-extra figure:nth-child(2){transform:rotate(1.3deg);}
+  .about-extra figure:nth-child(3){transform:rotate(-.9deg);}
+  .about-extra figure:hover{transform:rotate(0) scale(1.015);}
+  .about-extra img.about-extra-img{width:100%; aspect-ratio:4/3; object-fit:cover; display:block; border-radius:3px;}
+  #about{overflow-x:clip;}
+  .about-extra figure.tall{grid-row:span 2; display:flex; flex-direction:column;}
+  .about-extra figure.tall img.about-extra-img{flex:1 1 0; min-height:0; height:0; aspect-ratio:auto;}
+  .about-extra figcaption{font-family:'Fraunces', serif; font-style:italic; font-size:1rem; line-height:1.35; color:var(--ink); padding:12px 4px 2px; text-align:center;}
+  .about-caption{margin:0; padding:12px 14px; font-family:'Fraunces', serif; font-style:italic; text-align:center; background:var(--paper);}
+  html.a11y-contrast .about-extra figcaption, html.a11y-contrast .about-caption{color:#fff; background:#000;}
+  @media (prefers-reduced-motion: reduce){ .about-extra figure{transition:none;} }
+  html.a11y-contrast .about-extra figure{transform:none !important; box-shadow:none; border:2px solid #ffd400; background:#000;}
+  html.a11y-no-motion .about-extra figure{transition:none;}
+  @media (max-width: 600px){ .about-extra{grid-template-columns:1fr; gap:26px; padding:0 6px;} .about-extra figure.tall{grid-row:auto;} .about-extra figure.tall img.about-extra-img{flex:none; height:auto; aspect-ratio:4/5;} }
+
+  .lang-switch a{padding:6px 12px; color:var(--ink); text-decoration:none; font-family:inherit; font-size:inherit; display:inline-block;}
+  .lang-switch a[aria-current="page"]{background:var(--ink); color:var(--bg);}
+  html.a11y-contrast .lang-switch a{color:#fff;}
+  html.a11y-contrast .lang-switch a[aria-current="page"]{background:#fff; color:#000;}
+
+  [hidden]{display:none !important;}
+  nav.primary-nav a[aria-current="page"]{border-bottom-color:var(--rust);}
+  html.a11y-contrast nav.primary-nav a[aria-current="page"]{border-bottom-color:#ffd400;}
+  h1.page-title{font-size:clamp(1.8rem, 4vw, 2.6rem); font-weight:inherit;}
+  main{min-height:60vh;}
+  section.brand-end{padding:56px 0 72px; text-align:center;}
+  img.brand-end-logo{width:min(260px, 70%); height:auto; display:inline-block;}
+  .brand-slogan{font-family:'Fraunces', serif; font-style:italic; font-size:1.25rem; margin:10px 0 0; color:var(--ink);}
+  .terms-wrap{max-width:820px;}
+  .terms-updated{font-family:'IBM Plex Mono', monospace; font-size:.85rem; color:var(--ink-soft, var(--ink)); margin-top:6px;}
+  .terms-intro{font-size:1.05rem;}
+  .terms-block{margin-top:34px;}
+  .terms-block h3{margin-bottom:12px;}
+  .terms-block p{margin:0 0 12px;}
+  .terms-block ul{margin:0 0 12px;}
+  .quick-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(185px, 1fr)); gap:18px;}
+  .quick-card{display:flex; flex-direction:column; gap:8px; background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:24px; text-decoration:none; color:var(--ink); transition:transform .2s ease, box-shadow .2s ease;}
+  .quick-card:hover{transform:translateY(-3px); box-shadow:0 12px 24px -14px rgba(43,36,48,.4);}
+  .quick-card h2{font-size:1.4rem; margin:0;}
+  .quick-card p{margin:0; color:var(--ink-soft, var(--ink)); flex:1;}
+  .quick-more{color:var(--rust); font-weight:600;}
+  .contact-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:20px;}
+  .contact-card{background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:26px;}
+  .contact-card h3{margin:0 0 12px; font-size:1.25rem;}
+  .contact-card p{margin:0 0 10px;}
+  @media (prefers-reduced-motion: reduce){ .quick-card{transition:none;} .quick-card:hover{transform:none;} }
+  html.a11y-contrast .quick-card, html.a11y-contrast .contact-card{background:#000; border:2px solid #ffd400; color:#fff;}
+  html.a11y-contrast .quick-more{color:#ffd400;}
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Gå til indhold</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo"><img src="../images/logo-wide.webp" width="800" height="401" alt="Oh My Dog hundesalon logo" class="logo-header"></a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="/om-os/" aria-current="page">Om os</a>
+      <a href="/priser/">Priser</a>
+      <a href="/galleri/">Galleri</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/vilkaar/">Vilkår</a>
+      <a href="/kontakt/">Kontakt</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Sprog">
+        <a href="/om-os/" lang="da" hreflang="da" aria-current="page">DA</a>
+        <a href="/en/about/" lang="en" hreflang="en">EN</a>
+      </div>
+      <a class="btn btn-outline" href="https://oh-my-dog.planway.com" id="header-book">
+        Book tid
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu">
+        ☰
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ABOUT -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <img src="../images/lina-pomeranians.webp" width="1100" height="1467" alt="Lina smiler med Alba og Lulu, to nyklippede pomeranianere" loading="lazy" decoding="async" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 38%;display:block;">
+        <p class="about-caption">Alba og Lulu – gamle kunder</p>
+      </div>
+      <div>
+        <span class="section-head kicker" style="display:block;">Hvem vi er</span>
+        <h1 class="page-title">Mød Lina</h1>
+        <p>
+          
+          Lina grundlagde Oh My Dog i 2025 og skabte et sted, hvor hundeejere trygt kan overlade deres bedste ven. Hun lægger stor vægt på hver hunds tryghed og trivsel og møder hver hund med tålmodighed og respekt.
+        </p>
+        <p>
+          
+          Lina er certificeret hundetræner og en erfaren frisør for både hunde og katte, med en naturlig evne til at skabe tillid hos dyrene og stort fokus på god kundeservice.
+        </p>
+        <div>
+          <span class="credential">🎓 Certificeret hundetræner</span>
+          <span class="credential">✂️ Hunde- og kattefrisør</span>
+        </div>
+      </div>
+    </div>
+    <div class="wrap about-extra">
+      <figure class="tall"><img src="../images/lina-white-shepherd.webp" width="1067" height="1600" alt="Lina med solbriller krammer sin glade hvide hund Michelle udendørs" class="about-extra-img" loading="lazy" decoding="async" style=" object-position:50% 40%;"><figcaption>Michelle – Linas egen hund og Oh My Dogs ansigt</figcaption></figure>
+      <figure><img src="../images/lina-event.webp" width="1100" height="1467" alt="Lina med en fluffy brun puddel til et fagligt seminar sammen med Nathan og Kate Austin i en stor hal med trimmeborde" class="about-extra-img" loading="lazy" decoding="async" style=" object-position:50% 32%;"><figcaption>Til et fagligt seminar hos Nathan og Kate Austin</figcaption></figure>
+      <figure><img src="../images/lina-dog-paw.webp" width="1100" height="1470" alt="Lina smiler, mens Gracie, en sort Cane Corso i sele, giver hende pote på en græsplæne" class="about-extra-img" loading="lazy" decoding="async" style=" object-position:50% 46%;"><figcaption>Gracie, en Cane Corso – en af de første hunde, Lina arbejdede med i Danmark</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Vores venner</span>
+        <h2>Betroede samarbejdspartnere</h2>
+      </div>
+      <div class="partners">
+        <div class="partner-card">
+          <img src="../images/vetica-logo.webp" width="240" height="240" alt="Vetica logo" class="partner-logo" loading="lazy" decoding="async">
+          <div>
+            <h3>Vetica</h3>
+            <p>
+            Anna er en fuldt kvalificeret og certificeret mobil dyrlæge, der tilbyder skånsom håndtering og personlig pleje til hvert dyr.</p>
+            <a href="https://www.vetica.dk/">Besøg hjemmeside →</a>
+          </div>
+        </div>
+        <div class="partner-card">
+          <img src="../images/dwl-logo.webp" width="240" height="240" alt="Doggies with Love logo" class="partner-logo" loading="lazy" decoding="async">
+          <div>
+            <h3>Doggies with Love</h3>
+            <p>
+            Oliwia er certificeret hundetræner i København og hjælper hunde med positiv forstærkning samt professionel luftning og pasning.</p>
+            <a href="https://www.doggieswithlove.com/">Besøg hjemmeside →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="brand-end">
+    <div class="wrap">
+      <img src="../images/logo.webp" width="640" height="640" alt="" class="brand-end-logo" loading="lazy" decoding="async" aria-hidden="true">
+      <p class="brand-slogan">Hundenes wellness-tempel</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER / CONTACT -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../images/logo-wide.webp" width="800" height="401" alt="Oh My Dog hundesalon logo" class="logo-footer" loading="lazy" decoding="async">
+        <h3>Oh My Dog</h3>
+        <p style="color:var(--sage);">
+          
+          Hundenes wellness-tempel. En hundefrisør i hjertet af København.
+        </p>
+        <a class="btn btn-primary" href="https://oh-my-dog.planway.com" style="margin-top:8px;">
+          Book tid
+        </a>
+      </div>
+      <div>
+        <span class="foot-label">Besøg &amp; kontakt</span>
+        <p>Klareboderne 10 kl,<br>1115 København K</p>
+        <p>Tlf: <a href="tel:+4591605292">+45 91605292</a></p>
+        <p><a href="mailto:oh.my.dog.cph@gmail.com">oh.my.dog.cph@gmail.com</a></p>
+        <p><a href="https://instagram.com/oh_my_dog.cph">@oh_my_dog.cph</a></p>
+      </div>
+      <div>
+        <span class="foot-label">Åbningstider</span>
+        <p>Kun efter aftale. Ledige tider afhænger af bookinger — se ledige tider og book online.</p>
+        <p><a href="https://oh-my-dog.planway.com">Se ledige tider →</a></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© 2026 Oh My Dog · CVR 45558363</span>
+      <span>Lavet med omhu i København</span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ACCESSIBILITY TOOLBAR -->
+<button type="button" class="a11y-fab" id="a11y-toggle" aria-expanded="false" aria-controls="a11y-panel">
+  <span aria-hidden="true">Aa</span>
+  <span>Tilgængelighed</span>
+</button>
+<div class="a11y-panel" id="a11y-panel" role="region" aria-labelledby="a11y-title" hidden>
+  <h2 id="a11y-title">Tilgængelighedsindstillinger</h2>
+
+  <span class="a11y-label" id="a11y-size-label">Tekststørrelse</span>
+  <div class="a11y-row" role="group" aria-labelledby="a11y-size-label" style="display:grid;grid-template-columns:repeat(4,1fr);">
+    <button type="button" class="a11y-btn" data-size="0" aria-pressed="true">A</button>
+    <button type="button" class="a11y-btn" data-size="1" aria-pressed="false" style="font-size:1.05rem">A+</button>
+    <button type="button" class="a11y-btn" data-size="2" aria-pressed="false" style="font-size:1.2rem">A++</button>
+    <button type="button" class="a11y-btn" data-size="3" aria-pressed="false" style="font-size:1.25rem">A+++</button>
+  </div>
+
+  <div class="a11y-row" style="flex-direction:column;">
+    <button type="button" class="a11y-btn" data-toggle="contrast" aria-pressed="false">Høj kontrast (sort &amp; gul)</button>
+    <button type="button" class="a11y-btn" data-toggle="font" aria-pressed="false">Letlæselig skrifttype</button>
+    <button type="button" class="a11y-btn" data-toggle="spacing" aria-pressed="false">Større tekstafstand</button>
+    <button type="button" class="a11y-btn" data-toggle="links" aria-pressed="false">Understreg alle links</button>
+    <button type="button" class="a11y-btn" data-toggle="motion" aria-pressed="false">Stop animationer</button>
+  </div>
+  <button type="button" class="a11y-btn a11y-reset" id="a11y-reset">Nulstil alt</button>
+</div>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('nav-toggle');
+  const primaryNav = document.getElementById('primary-nav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = primaryNav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  primaryNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    primaryNav.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Shrink header logo on scroll
+  (function(){
+    const hdr = document.querySelector('header.site-header');
+    function onScroll(){ hdr.classList.toggle('scrolled', window.scrollY > 40); }
+    window.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
+  })();
+
+  // Accessibility toolbar
+  (function(){
+    const root = document.documentElement;
+    const fab = document.getElementById('a11y-toggle');
+    const panel = document.getElementById('a11y-panel');
+    const toggles = ['contrast','font','spacing','links','motion'];
+    let state = {size:0, contrast:false, font:false, spacing:false, links:false, motion:false};
+
+    function load(){
+      try { const s = JSON.parse(localStorage.getItem('omd-a11y')); if (s) state = Object.assign(state, s); } catch(e) {}
+    }
+    function save(){ try { localStorage.setItem('omd-a11y', JSON.stringify(state)); } catch(e) {} }
+
+    function apply(){
+      ['a11y-size-1','a11y-size-2','a11y-size-3'].forEach(c => root.classList.remove(c));
+      if (state.size > 0) root.classList.add('a11y-size-' + state.size);
+      toggles.forEach(t => root.classList.toggle('a11y-' + t, !!state[t]));
+      panel.querySelectorAll('[data-size]').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.size === state.size)));
+      panel.querySelectorAll('[data-toggle]').forEach(b => b.setAttribute('aria-pressed', String(!!state[b.dataset.toggle])));
+    }
+
+    function setOpen(open){
+      panel.hidden = !open;
+      fab.setAttribute('aria-expanded', String(open));
+    }
+
+    fab.addEventListener('click', () => setOpen(panel.hidden));
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !panel.hidden) { setOpen(false); fab.focus(); }
+    });
+    panel.querySelectorAll('[data-size]').forEach(b => b.addEventListener('click', () => { state.size = +b.dataset.size; save(); apply(); }));
+    panel.querySelectorAll('[data-toggle]').forEach(b => b.addEventListener('click', () => { state[b.dataset.toggle] = !state[b.dataset.toggle]; save(); apply(); }));
+    document.getElementById('a11y-reset').addEventListener('click', () => {
+      state = {size:0, contrast:false, font:false, spacing:false, links:false, motion:false}; save(); apply();
+    });
+
+    load(); apply();
+  })();
+</script>
+
+</body>
+</html>

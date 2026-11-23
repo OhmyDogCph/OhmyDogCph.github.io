@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ohmydogcph.dk/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/om-os/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/om-os/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/om-os/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/priser/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/prices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/priser/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/galleri/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/galleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/galleri/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/faq/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/vilkaar/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/vilkaar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/vilkaar/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/kontakt/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/om-os/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/om-os/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/prices/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/priser/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/prices/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/priser/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/gallery/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/galleri/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/galleri/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/faq/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/vilkaar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/vilkaar/"/>
+  </url>
+  <url>
+    <loc>https://ohmydogcph.dk/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="da" href="https://ohmydogcph.dk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ohmydogcph.dk/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ohmydogcph.dk/kontakt/"/>
+  </url>
+</urlset>
